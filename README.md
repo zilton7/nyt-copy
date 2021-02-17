@@ -1,7 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
+# New York Times Copy
 > This is my entry for the first project on Microverse. A copy of New Yrok Times page.
 
 ![screenshot](./app_screenshot.png)
@@ -14,7 +13,7 @@ There is not many feaures, appart from Microverse's linters.
 
 ## Live Demo
 
-[Live Demo Link](https://zilton7.github.io/hello-world/)
+[Live Demo Link](https://zilton7.github.io/nyt-copy/)
 
 ## Getting Started
 
