@@ -300,9 +300,6 @@ div.footer-cont {
   margin: 0 auto;
   border-bottom: 2px solid #e2e2e2;
   margin-bottom: 1.5px;
-}
-
-div.footer-cont {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 2fr 1fr;
@@ -363,7 +360,6 @@ h3.newsletter-title-1 {
 
 p.newsletter-p {
   font-weight: 500;
-  font-size: 1.2rem;
   line-height: 1.5rem;
   color: rgb(102, 102, 102);
   font-size: 1.4rem;
