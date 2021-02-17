@@ -35,6 +35,10 @@ main img {
   width: 1.5rem;
 }
 
+footer .newsletter img {
+  width: 100px;
+}
+
 nav div.logo img {
   width: 25rem;
 }
@@ -156,7 +160,6 @@ p.caption-text span a {
 
 p#author-top {
   line-height: 0.7rem;
-
   font-size: 1.3em;
   font-weight: bold;
 }
@@ -178,7 +181,6 @@ article h3 {
   text-transform: capitalize;
   width: 80%;
   margin: auto;
-  padding: 1rem;
   line-height: 3rem;
   padding: 0 0 5rem 0;
 }
@@ -221,6 +223,7 @@ section.graphics {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 section.graphics div {
   display: flex;
   flex-direction: column;
@@ -275,9 +278,6 @@ section#comment {
 
 /* Footer */
 
-footer .newsletter img {
-  width: 100px;
-}
 footer div.logo {
   width: 20rem;
 }
