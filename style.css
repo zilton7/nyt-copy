@@ -154,6 +154,17 @@ article a {
   font-weight: 700;
 }
 
+div.img-articles a {
+  text-decoration: none;
+}
+
+h3.newsletter-title-1 a {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
 p.caption-text span a {
   color: black;
 }
@@ -294,16 +305,13 @@ div.footer-cont {
 div.footer-cont {
   display: grid;
   grid-template-columns: 3fr 1fr;
-}
-
-div.footer-cont-1 {
-  display: grid;
   grid-template-rows: 1fr 2fr 1fr;
 }
 
 img.img-art {
   height: 18rem;
   width: 28rem;
+  width: 100%;
 }
 
 div.newsletter1 {
@@ -358,6 +366,7 @@ p.newsletter-p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: rgb(102, 102, 102);
+  font-size: 1.4rem;
 }
 
 div.newsletter-1 {
@@ -395,10 +404,6 @@ h3.news {
   margin-bottom: 0.5rem;
 }
 
-p.newsletter-p {
-  font-size: 1.4rem;
-}
-
 a.latest {
   font-size: 1.4rem;
   color: rgb(50, 104, 145);
@@ -418,26 +423,11 @@ div.cat-title {
   margin-left: 1rem;
 }
 
-h3.newsletter-title-1 a {
-  font-size: 1.7rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
 figcaption.nasa {
   text-align: right;
   text-decoration: none;
   color: rgb(164, 169, 173);
   margin-top: 0.3rem;
-}
-
-div.img-articles a {
-  text-decoration: none;
-}
-
-img.img-art {
-  width: 100%;
 }
 
 h3.art-title {
