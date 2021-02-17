@@ -27,8 +27,26 @@ div.logo {
   padding: 2rem;
 }
 
+main img {
+  width: 100rem;
+}
+
+.icon img {
+  width: 1.5rem;
+}
+
 nav div.logo img {
   width: 25rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  font-size: 1.3rem;
+  font-weight: 700;
+  height: 2.5rem;
+  line-height: 1.5rem;
+  width: 15rem;
 }
 
 nav h3 {
@@ -43,16 +61,18 @@ nav #left-links {
   align-items: center;
 }
 
-main img {
-  width: 100rem;
-}
-
-.icon img {
-  width: 1.5rem;
-}
-
 #login-section {
   padding: 0 2rem;
+}
+
+article button {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem 10rem;
+  background: #567b95;
+  border-radius: 5%;
+  text-transform: uppercase;
 }
 
 #login-section button {
@@ -196,7 +216,6 @@ figure.video figcaption {
 
 /* GRAPHIC START */
 section.graphics {
-  /* width: 90%; */
   display: flex;
   flex-basis: 25%;
   justify-content: space-between;
@@ -216,7 +235,6 @@ section.graphics div p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 100;
-  /* width: 50%; */
 }
 
 section.graphics div p span {
@@ -236,15 +254,6 @@ section.graphics p.description {
 }
 
 /* GRAPHIC END */
-article button {
-  color: white;
-  font-size: 1.3rem;
-  font-weight: bold;
-  padding: 0.7rem 10rem;
-  background: #567b95;
-  border-radius: 5%;
-  text-transform: uppercase;
-}
 
 section#comment {
   display: flex;
@@ -265,6 +274,7 @@ section#comment {
 }
 
 /* Footer */
+
 footer .newsletter img {
   width: 100px;
 }
@@ -272,7 +282,8 @@ footer div.logo {
   width: 20rem;
 }
 
-/*Footer*/
+/* Footer */
+
 div.footer-cont {
   width: 70%;
   margin: 0 auto;
@@ -314,7 +325,7 @@ div.editors-pick1 {
   grid-column-gap: 2rem;
 }
 
-/*newsletter-footer*/
+/* newsletter-footer */
 
 div.newsletter {
   border-top: 1px solid rgb(37, 37, 37);
@@ -395,7 +406,7 @@ a.latest {
   font-weight: bold;
 }
 
-/*More For Category*/
+/* More For Category */
 div.more-for-category {
   border-top: 1px solid rgb(37, 37, 37);
   margin: 2.5rem 2.5rem;
@@ -443,13 +454,13 @@ h3.art-title {
   font-size: 1.4rem;
 }
 
-/*Editors pick*/
+/* Editors pick */
 div.editors-pick {
   border-top: 1px solid rgb(37, 37, 37);
   margin: 2.5rem 2.5rem;
 }
 
-/*Most Popular category*/
+/* Most Popular category */
 div.sub-footer-cont2 {
   display: grid;
   grid-template-rows: repeat(11, 8rem);
@@ -468,7 +479,7 @@ a.most-popular {
   line-height: 2.2rem;
 }
 
-/*footer-box section above the footercopyright*/
+/* footer-box section above the footercopyright */
 div.footer-box {
   width: 70%;
   display: block;
@@ -494,16 +505,6 @@ div.cont-1 {
   margin-top: 0;
   display: flex;
   justify-content: space-between;
-}
-
-h3 {
-  text-transform: uppercase;
-  color: rgb(51, 51, 51);
-  font-size: 1.3rem;
-  font-weight: 700;
-  height: 2.5rem;
-  line-height: 1.5rem;
-  width: 15rem;
 }
 
 ul.footer-list {
@@ -542,7 +543,7 @@ div.sub.cont-3 {
   padding-bottom: 9px;
 }
 
-/*footer copyright*/
+/* footer copyright */
 nav.footer-copyright {
   width: 70%;
   display: block;
