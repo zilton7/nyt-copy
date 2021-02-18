@@ -2,6 +2,7 @@
 
 # New York Times Copy
 
+
 > This is my entry for the first project on Microverse. A copy of New Yrok Times page.
 
 ![screenshot](./app_screenshot.png)
