@@ -57,7 +57,7 @@
                     <a href="#"><i class="far fa-bookmark" aria-details="bookmark-icon"></i></a>
                 </li>
                 <li>
-                    <a href="#"><i class="far fa-comment" aria-details="comments-icon">615</i></a>
+                    <a href="#add-comment-area"><i class="far fa-comment" aria-details="comments-icon">615</i></a>
                 </li>
             </ul>
             <figure class="main-image">
@@ -394,6 +394,41 @@
                         <a href="#"><i class="fas fa-share" aria-details="share-icon"></i> </a>
                     </li>
                 </ul>
+                <div id="add-comment-area">
+                    <h3>Leave a Comment</h3>
+                    <form action="#">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Your name" id="name" name="name" maxlength="20" required>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Your email" id="email" name="email" maxlength="20" required>
+                        <label for="comment-field">Comment</label>
+                        <textarea placeholder="Type your comment here…" id="comment-field" name="comment"
+                            maxlength="250" rows="4" cols="50" required>
+                        </textarea>
+                        <div>
+                            <h3>What is your overall opinion about this article” with 3 options?</h3>
+                        </div>
+                        <div class="radio-wrapper">
+                            <div>
+                                <input type="radio" name="positive" id="positive" value="positive">
+                                <label for="positive">Positive</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" id="negative" name="negative" value="negative">
+                                <label for="negative">Negative</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" id="neutral" name="neutral" value="neutral">
+                                <label for="neutral">Neutral</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">I want to subscribe to the newsletter</label>
+                        </div>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
             </section>
         </article>
     </main>
