@@ -1,10 +1,11 @@
-/* Global styles */
+/* Global styleS */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -21,29 +22,63 @@ header nav {
   width: 100%;
 }
 
+.icon,
+div.logo {
+  padding: 2rem;
+}
+
+main img {
+  width: 100rem;
+}
+
+.icon img {
+  width: 1.5rem;
+}
+
+footer .newsletter img {
+  width: 100px;
+}
+
 nav div.logo img {
   width: 25rem;
 }
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  font-size: 1.3rem;
+  font-weight: 700;
+  height: 2.5rem;
+  line-height: 1.5rem;
+  width: 15rem;
+}
+
 nav h3 {
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 nav #left-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.icon,
-div.logo {
-  padding: 2rem;
-}
-.icon img {
-  width: 1.5rem;
-}
+
 #login-section {
   padding: 0 2rem;
 }
+
+article button {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem 10rem;
+  background: #567b95;
+  border-radius: 5%;
+  text-transform: uppercase;
+}
+
 #login-section button {
   color: white;
   font-size: 1.1rem;
@@ -53,6 +88,7 @@ div.logo {
   border-radius: 10%;
   text-transform: uppercase;
 }
+
 nav a {
   color: black;
   text-decoration: none;
@@ -76,9 +112,7 @@ i {
   background: rgba(128, 128, 128, 0.212);
   border-radius: 50%;
 }
-main img {
-  width: 100rem;
-}
+
 article h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4rem;
@@ -86,9 +120,11 @@ article h2 {
   margin: auto;
   padding: 10rem 0 1rem 0;
 }
+
 article img#main {
   width: 100%;
 }
+
 article div img.image {
   display: flex;
   width: 80%;
@@ -107,42 +143,57 @@ figure.main-image figcaption {
   padding: 1rem 2rem;
   line-height: 1.7rem;
 }
+
 p.caption-text span {
   font-size: 1rem;
   line-height: 0.7rem;
 }
+
+article a {
+  color: #326891;
+  font-weight: 700;
+}
+
+div.img-articles a {
+  text-decoration: none;
+}
+
+h3.newsletter-title-1 a {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
 p.caption-text span a {
   color: black;
 }
+
 p#author-top {
   line-height: 0.7rem;
-
   font-size: 1.3em;
   font-weight: bold;
 }
+
 p.date {
   font-size: 1.2em;
   font-weight: initial;
   color: rgba(95, 95, 95, 0.801);
 }
+
 article {
   width: 80%;
   margin: auto;
 }
+
 article p,
 article h3 {
   font-size: 1.8rem;
   text-transform: capitalize;
   width: 80%;
   margin: auto;
-  padding: 1rem;
   line-height: 3rem;
   padding: 0 0 5rem 0;
-}
-
-article a {
-  color: #326891;
-  font-weight: 700;
 }
 
 div.login-unlock {
@@ -178,26 +229,28 @@ figure.video figcaption {
 
 /* GRAPHIC START */
 section.graphics {
-  /* width: 90%; */
   display: flex;
   flex-basis: 25%;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 section.graphics div {
   display: flex;
   flex-direction: column;
   flex-basis: 25%;
 }
+
 section.graphics div img {
   width: 20rem;
 }
+
 section.graphics div p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 100;
-  /* width: 50%; */
 }
+
 section.graphics div p span {
   font-weight: bold;
   font-size: 1.1rem;
@@ -215,15 +268,7 @@ section.graphics p.description {
 }
 
 /* GRAPHIC END */
-article button {
-  color: white;
-  font-size: 1.3rem;
-  font-weight: bold;
-  padding: 0.7rem 10rem;
-  background: #567b95;
-  border-radius: 5%;
-  text-transform: uppercase;
-}
+
 section#comment {
   display: flex;
   align-items: center;
@@ -243,34 +288,27 @@ section#comment {
 }
 
 /* Footer */
-footer .newsletter img {
-  width: 100px;
-}
+
 footer div.logo {
   width: 20rem;
 }
 
-/*Footer*/
+/* Footer */
+
 div.footer-cont {
   width: 70%;
   margin: 0 auto;
   border-bottom: 2px solid #e2e2e2;
   margin-bottom: 1.5px;
-}
-
-div.footer-cont {
   display: grid;
   grid-template-columns: 3fr 1fr;
-}
-
-div.footer-cont-1 {
-  display: grid;
   grid-template-rows: 1fr 2fr 1fr;
 }
 
 img.img-art {
   height: 18rem;
   width: 28rem;
+  width: 100%;
 }
 
 div.newsletter1 {
@@ -292,7 +330,7 @@ div.editors-pick1 {
   grid-column-gap: 2rem;
 }
 
-/*newsletter-footer*/
+/* newsletter-footer */
 
 div.newsletter {
   border-top: 1px solid rgb(37, 37, 37);
@@ -322,9 +360,9 @@ h3.newsletter-title-1 {
 
 p.newsletter-p {
   font-weight: 500;
-  font-size: 1.2rem;
   line-height: 1.5rem;
   color: rgb(102, 102, 102);
+  font-size: 1.4rem;
 }
 
 div.newsletter-1 {
@@ -362,10 +400,6 @@ h3.news {
   margin-bottom: 0.5rem;
 }
 
-p.newsletter-p {
-  font-size: 1.4rem;
-}
-
 a.latest {
   font-size: 1.4rem;
   color: rgb(50, 104, 145);
@@ -373,7 +407,7 @@ a.latest {
   font-weight: bold;
 }
 
-/*More For Category*/
+/* More For Category */
 div.more-for-category {
   border-top: 1px solid rgb(37, 37, 37);
   margin: 2.5rem 2.5rem;
@@ -385,26 +419,11 @@ div.cat-title {
   margin-left: 1rem;
 }
 
-h3.newsletter-title-1 a {
-  font-size: 1.7rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
 figcaption.nasa {
   text-align: right;
   text-decoration: none;
   color: rgb(164, 169, 173);
   margin-top: 0.3rem;
-}
-
-div.img-articles a {
-  text-decoration: none;
-}
-
-img.img-art {
-  width: 100%;
 }
 
 h3.art-title {
@@ -421,13 +440,13 @@ h3.art-title {
   font-size: 1.4rem;
 }
 
-/*Editors pick*/
+/* Editors pick */
 div.editors-pick {
   border-top: 1px solid rgb(37, 37, 37);
   margin: 2.5rem 2.5rem;
 }
 
-/*Most Popular category*/
+/* Most Popular category */
 div.sub-footer-cont2 {
   display: grid;
   grid-template-rows: repeat(11, 8rem);
@@ -446,7 +465,7 @@ a.most-popular {
   line-height: 2.2rem;
 }
 
-/*footer-box section above the footercopyright*/
+/* footer-box section above the footercopyright */
 div.footer-box {
   width: 70%;
   display: block;
@@ -472,16 +491,6 @@ div.cont-1 {
   margin-top: 0;
   display: flex;
   justify-content: space-between;
-}
-
-h3 {
-  text-transform: uppercase;
-  color: rgb(51, 51, 51);
-  font-size: 1.3rem;
-  font-weight: 700;
-  height: 2.5rem;
-  line-height: 1.5rem;
-  width: 15rem;
 }
 
 ul.footer-list {
@@ -520,7 +529,7 @@ div.sub.cont-3 {
   padding-bottom: 9px;
 }
 
-/*footer copyright*/
+/* footer copyright */
 nav.footer-copyright {
   width: 70%;
   display: block;
