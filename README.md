@@ -5,7 +5,7 @@
 
 > This is my entry for the first project on Microverse. A copy of New Yrok Times page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://i.ibb.co/L9Ky6CV/Screenshot-2021-02-18-09-18-11.png)
 
 There is not many feaures, appart from Microverse's linters.
 
@@ -19,7 +19,7 @@ There is not many feaures, appart from Microverse's linters.
 
 ## Getting Started
 
-**This is nstructions on setting up your project locally.**
+**This is instructions on setting up your project locally.**
 
 To get a local copy up and running follow these simple example steps.
 
