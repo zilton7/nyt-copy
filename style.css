@@ -271,6 +271,7 @@ section.graphics p.description {
 
 section#comment {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 80%;
   margin: auto;
@@ -285,6 +286,11 @@ section#comment {
 
 #read-comments {
   margin: 0%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Footer */
