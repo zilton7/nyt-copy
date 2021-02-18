@@ -396,22 +396,26 @@
                 </ul>
                 <div class="add-comment-area">
                     <form action="#">
-                        <label for="name">Name: </label>
-                        <input type="text" placeholder="Your name" name="name">
-                        <label for="email">Email: </label>
-                        <input type="email" placeholder="Your email" name="email">
-                        <label for="mood">Mood: </label>
-                        <input type="text" placeholder="Your comment" name="comment">
-
-                        <input type="radio" id="positive" name="positive" value="positive">
-                        <label for="positive">Positive</label><br>
-                        <input type="radio" id="negative" name="negative" value="negative">
-                        <label for="negative">Negative</label><br>
-                        <input type="radio" id="neutral" name="neutral" value="neutral">
-                        <label for="neutral">Neutral</label>
-
-                        <input type="submit" value="Submit">
-
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Your name" name="name" maxlength="20" required>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Your email" name="email" maxlength="20" required>
+                        <label for="mood">Mood</label>
+                        <input type="text" placeholder="Type your comment here…" name="comment" maxlength="250"
+                            required>
+                        <div class="radio-wrapper">
+                            <input type="radio" id="positive" name="positive" value="positive">
+                            <label for="positive">Positive</label><br>
+                            <input type="radio" id="negative" name="negative" value="negative">
+                            <label for="negative">Negative</label><br>
+                            <input type="radio" id="neutral" name="neutral" value="neutral">
+                            <label for="neutral">Neutral</label>
+                        </div>
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" name="subscribe">
+                            <label for="subscribe">I want to subscribe to the newsletter</label>
+                        </div>
+                        <input type="submit" value="Send">
                     </form>
                 </div>
             </section>
