@@ -302,10 +302,35 @@ form {
   flex-direction: column;
 }
 
+form textarea {
+  border-radius: 1rem;
+}
+
 form div.radio-wrapper {
+  display: flex;
   border: dotted grey;
-  padding: 1rem 01rem 1rem;
-  margin-bottom: 2rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+form div.radio-wrapper div {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+form div.radio-wrapper div input {
+  margin: 0 0.5rem;
+}
+
+form div.checkbox-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 /* Footer */

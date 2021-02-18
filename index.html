@@ -400,16 +400,23 @@
                         <input type="text" placeholder="Your name" name="name" maxlength="20" required>
                         <label for="email">Email</label>
                         <input type="email" placeholder="Your email" name="email" maxlength="20" required>
-                        <label for="mood">Mood</label>
-                        <input type="text" placeholder="Type your comment here…" name="comment" maxlength="250"
-                            required>
+                        <label for="comment">Comment</label>
+                        <textarea placeholder="Type your comment here…" name="comment" maxlength="250" rows="4"
+                            cols="50" required>
+                        </textarea>
                         <div class="radio-wrapper">
-                            <input type="radio" id="positive" name="positive" value="positive">
-                            <label for="positive">Positive</label><br>
-                            <input type="radio" id="negative" name="negative" value="negative">
-                            <label for="negative">Negative</label><br>
-                            <input type="radio" id="neutral" name="neutral" value="neutral">
-                            <label for="neutral">Neutral</label>
+                            <div>
+                                <input type="radio" id="positive" name="positive" value="positive">
+                                <label for="positive">Positive</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" id="negative" name="negative" value="negative">
+                                <label for="negative">Negative</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" id="neutral" name="neutral" value="neutral">
+                                <label for="neutral">Neutral</label>
+                            </div>
                         </div>
                         <div class="checkbox-wrapper">
                             <input type="checkbox" name="subscribe">
