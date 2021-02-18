@@ -20,7 +20,7 @@ There is not many feaures, appart from Microverse's linters.
 ## Author
 
 - GitHub: [@zilton7](https://github.com/zilton7)
-- Twitter: [@devnor7](https://twitter.com/devnor7
+- Twitter: [@devnor7](https://twitter.com/devnor7)
 - LinkedIn: [zil-norvilis](https://www.linkedin.com/in/zil-norvilis)
 
 ## 🤝 Contributing
