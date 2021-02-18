@@ -292,6 +292,11 @@ section#comment {
   justify-content: center;
 }
 
+form h3 {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
 form label {
   font-size: 1.5rem;
   font-weight: bold;
@@ -342,7 +347,7 @@ form div.radio-wrapper div input {
 
 form div.checkbox-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 80%;
   margin: auto;
   margin-bottom: 1rem;
