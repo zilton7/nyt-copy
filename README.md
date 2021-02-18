@@ -17,24 +17,6 @@ There is not many feaures, appart from Microverse's linters.
 
 [Live Demo Link](https://zilton7.github.io/nyt-copy/)
 
-## Getting Started
-
-**This is instructions on setting up your project locally.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 ## Author
 
 - GitHub: [@zilton7](https://github.com/zilton7)
