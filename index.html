@@ -401,16 +401,16 @@
                         <input type="text" placeholder="Your name" id="name" name="name" maxlength="20" required>
                         <label for="email">Email</label>
                         <input type="email" placeholder="Your email" id="email" name="email" maxlength="20" required>
-                        <label for="comment">Comment</label>
-                        <textarea placeholder="Type your comment here…" id="comment" name="comment" maxlength="250"
-                            rows="4" cols="50" required>
+                        <label for="comment-field">Comment</label>
+                        <textarea placeholder="Type your comment here…" id="comment-field" name="comment"
+                            maxlength="250" rows="4" cols="50" required>
                         </textarea>
                         <div>
                             <h3>What is your overall opinion about this article” with 3 options?</h3>
                         </div>
                         <div class="radio-wrapper">
                             <div>
-                                <input type="radio" id="positive" name="positive" id="positive" value="positive">
+                                <input type="radio" name="positive" id="positive" value="positive">
                                 <label for="positive">Positive</label><br>
                             </div>
                             <div>
@@ -423,7 +423,7 @@
                             </div>
                         </div>
                         <div class="checkbox-wrapper">
-                            <input type="checkbox" name="subscribe">
+                            <input type="checkbox" id="subscribe" name="subscribe">
                             <label for="subscribe">I want to subscribe to the newsletter</label>
                         </div>
                         <input type="submit" value="Send">
