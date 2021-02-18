@@ -10,16 +10,23 @@ html {
   font-size: 62.5%;
 }
 
+header {
+  min-height: 10vh;
+}
+
 /* Navbar styles */
 header nav {
   display: flex;
   position: fixed;
-  min-height: 10vh;
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 0.1rem rgba(0, 0, 0, 0.1);
   background: white;
   width: 100%;
+}
+
+main {
+  min-height: 90vh;
 }
 
 .icon,
@@ -118,7 +125,7 @@ article h2 {
   font-size: 4rem;
   width: 60%;
   margin: auto;
-  padding: 10rem 0 1rem 0;
+  padding: 3rem 0 1rem 0;
 }
 
 article img#main {
@@ -268,6 +275,13 @@ section.graphics p.description {
 }
 
 /* GRAPHIC END */
+
+#add-comment-area {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
 
 section#comment {
   display: flex;
